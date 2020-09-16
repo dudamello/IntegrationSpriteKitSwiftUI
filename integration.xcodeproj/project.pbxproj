@@ -13,6 +13,8 @@
 		BC7BE90F251246D40030A62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE90E251246D40030A62F /* Assets.xcassets */; };
 		BC7BE912251246D40030A62F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE911251246D40030A62F /* Preview Assets.xcassets */; };
 		BC7BE915251246D40030A62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7BE913251246D40030A62F /* LaunchScreen.storyboard */; };
+		BC7BE91D2512476C0030A62F /* SpriteKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7BE91C2512476C0030A62F /* SpriteKitContainer.swift */; };
+		BC7BE91F2512479F0030A62F /* SpriteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7BE91E2512479F0030A62F /* SpriteScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BC7BE911251246D40030A62F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC7BE914251246D40030A62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC7BE916251246D40030A62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7BE91C2512476C0030A62F /* SpriteKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitContainer.swift; sourceTree = "<group>"; };
+		BC7BE91E2512479F0030A62F /* SpriteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				BC7BE908251246CF0030A62F /* AppDelegate.swift */,
 				BC7BE90A251246CF0030A62F /* SceneDelegate.swift */,
 				BC7BE90C251246CF0030A62F /* ContentView.swift */,
+				BC7BE91C2512476C0030A62F /* SpriteKitContainer.swift */,
 				BC7BE90E251246D40030A62F /* Assets.xcassets */,
 				BC7BE913251246D40030A62F /* LaunchScreen.storyboard */,
 				BC7BE916251246D40030A62F /* Info.plist */,
 				BC7BE910251246D40030A62F /* Preview Content */,
+				BC7BE91E2512479F0030A62F /* SpriteScene.swift */,
 			);
 			path = integration;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC7BE909251246CF0030A62F /* AppDelegate.swift in Sources */,
+				BC7BE91D2512476C0030A62F /* SpriteKitContainer.swift in Sources */,
+				BC7BE91F2512479F0030A62F /* SpriteScene.swift in Sources */,
 				BC7BE90B251246CF0030A62F /* SceneDelegate.swift in Sources */,
 				BC7BE90D251246CF0030A62F /* ContentView.swift in Sources */,
 			);
